@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		3D26BC2E1D998F3A0066B76E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D26BC2D1D998F3A0066B76E /* main.m */; };
 		3D26BC311D998F3A0066B76E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D26BC301D998F3A0066B76E /* AppDelegate.m */; };
-		3D26BC341D998F3A0066B76E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D26BC331D998F3A0066B76E /* ViewController.m */; };
 		3D26BC371D998F3A0066B76E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D26BC351D998F3A0066B76E /* Main.storyboard */; };
 		3D26BC3A1D998F3A0066B76E /* TwitterSpy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3D26BC381D998F3A0066B76E /* TwitterSpy.xcdatamodeld */; };
 		3D26BC3C1D998F3A0066B76E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D26BC3B1D998F3A0066B76E /* Assets.xcassets */; };
@@ -17,11 +16,12 @@
 		3D26BC4A1D998F3A0066B76E /* TwitterSpyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D26BC491D998F3A0066B76E /* TwitterSpyTests.m */; };
 		3D26BC551D998F3A0066B76E /* TwitterSpyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D26BC541D998F3A0066B76E /* TwitterSpyUITests.m */; };
 		3D26BC631D9990750066B76E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D26BC621D9990750066B76E /* MapKit.framework */; };
-		3D4AE03D1D9C365500555226 /* TwitterSpy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4AE03B1D9C365500555226 /* TwitterSpy.m */; };
-		3D4AE0401D9C37FD00555226 /* NSString+Encoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4AE03F1D9C37FD00555226 /* NSString+Encoding.m */; };
-		3D4AE0431D9C3E8900555226 /* Tweet.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4AE0421D9C3E8900555226 /* Tweet.m */; };
-		3D4AE04A1D9C4C1500555226 /* NSString+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4AE0491D9C4C1500555226 /* NSString+Random.m */; };
-		3D7391621DA11619003A7FC1 /* TwitterRequestFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D7391611DA11619003A7FC1 /* TwitterRequestFactory.m */; };
+		3D7391691DA13B2E003A7FC1 /* TwitterSpy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D7391631DA13B2E003A7FC1 /* TwitterSpy.m */; };
+		3D73916A1DA13B2E003A7FC1 /* TwitterRequestFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D7391661DA13B2E003A7FC1 /* TwitterRequestFactory.m */; };
+		3D73916B1DA13B2E003A7FC1 /* Tweet.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D7391681DA13B2E003A7FC1 /* Tweet.m */; };
+		3D7391701DA13B38003A7FC1 /* NSString+Encoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D73916C1DA13B38003A7FC1 /* NSString+Encoding.m */; };
+		3D7391711DA13B38003A7FC1 /* NSString+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D73916D1DA13B38003A7FC1 /* NSString+Random.m */; };
+		3D7391741DA13B41003A7FC1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D7391721DA13B41003A7FC1 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,8 +46,6 @@
 		3D26BC2D1D998F3A0066B76E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3D26BC2F1D998F3A0066B76E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3D26BC301D998F3A0066B76E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3D26BC321D998F3A0066B76E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
-		3D26BC331D998F3A0066B76E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
 		3D26BC361D998F3A0066B76E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D26BC391D998F3A0066B76E /* TwitterSpy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TwitterSpy.xcdatamodel; sourceTree = "<group>"; };
 		3D26BC3B1D998F3A0066B76E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,16 +58,18 @@
 		3D26BC541D998F3A0066B76E /* TwitterSpyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwitterSpyUITests.m; sourceTree = "<group>"; };
 		3D26BC561D998F3A0066B76E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D26BC621D9990750066B76E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		3D4AE03B1D9C365500555226 /* TwitterSpy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TwitterSpy.m; path = ../TwitterSpy.m; sourceTree = "<group>"; };
-		3D4AE03C1D9C365500555226 /* TwitterSpy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TwitterSpy.h; path = ../TwitterSpy.h; sourceTree = "<group>"; };
-		3D4AE03E1D9C37FD00555226 /* NSString+Encoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Encoding.h"; path = "../NSString+Encoding.h"; sourceTree = "<group>"; };
-		3D4AE03F1D9C37FD00555226 /* NSString+Encoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Encoding.m"; path = "../NSString+Encoding.m"; sourceTree = "<group>"; };
-		3D4AE0411D9C3E8900555226 /* Tweet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Tweet.h; path = ../Tweet.h; sourceTree = "<group>"; };
-		3D4AE0421D9C3E8900555226 /* Tweet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Tweet.m; path = ../Tweet.m; sourceTree = "<group>"; };
-		3D4AE0481D9C4C1500555226 /* NSString+Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Random.h"; sourceTree = "<group>"; };
-		3D4AE0491D9C4C1500555226 /* NSString+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Random.m"; sourceTree = "<group>"; };
-		3D7391601DA11619003A7FC1 /* TwitterRequestFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterRequestFactory.h; sourceTree = "<group>"; };
-		3D7391611DA11619003A7FC1 /* TwitterRequestFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterRequestFactory.m; sourceTree = "<group>"; };
+		3D7391631DA13B2E003A7FC1 /* TwitterSpy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterSpy.m; sourceTree = "<group>"; };
+		3D7391641DA13B2E003A7FC1 /* TwitterRequestFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterRequestFactory.h; sourceTree = "<group>"; };
+		3D7391651DA13B2E003A7FC1 /* TwitterSpy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterSpy.h; sourceTree = "<group>"; };
+		3D7391661DA13B2E003A7FC1 /* TwitterRequestFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterRequestFactory.m; sourceTree = "<group>"; };
+		3D7391671DA13B2E003A7FC1 /* Tweet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tweet.h; sourceTree = "<group>"; };
+		3D7391681DA13B2E003A7FC1 /* Tweet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tweet.m; sourceTree = "<group>"; };
+		3D73916C1DA13B38003A7FC1 /* NSString+Encoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Encoding.m"; sourceTree = "<group>"; };
+		3D73916D1DA13B38003A7FC1 /* NSString+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Random.m"; sourceTree = "<group>"; };
+		3D73916E1DA13B38003A7FC1 /* NSString+Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Random.h"; sourceTree = "<group>"; };
+		3D73916F1DA13B38003A7FC1 /* NSString+Encoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Encoding.h"; sourceTree = "<group>"; };
+		3D7391721DA13B41003A7FC1 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3D7391731DA13B41003A7FC1 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,12 +165,12 @@
 		3D4AE0441D9C4BB100555226 /* API */ = {
 			isa = PBXGroup;
 			children = (
-				3D4AE03C1D9C365500555226 /* TwitterSpy.h */,
-				3D4AE03B1D9C365500555226 /* TwitterSpy.m */,
-				3D4AE0411D9C3E8900555226 /* Tweet.h */,
-				3D4AE0421D9C3E8900555226 /* Tweet.m */,
-				3D7391601DA11619003A7FC1 /* TwitterRequestFactory.h */,
-				3D7391611DA11619003A7FC1 /* TwitterRequestFactory.m */,
+				3D7391631DA13B2E003A7FC1 /* TwitterSpy.m */,
+				3D7391641DA13B2E003A7FC1 /* TwitterRequestFactory.h */,
+				3D7391651DA13B2E003A7FC1 /* TwitterSpy.h */,
+				3D7391661DA13B2E003A7FC1 /* TwitterRequestFactory.m */,
+				3D7391671DA13B2E003A7FC1 /* Tweet.h */,
+				3D7391681DA13B2E003A7FC1 /* Tweet.m */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -178,10 +178,10 @@
 		3D4AE0451D9C4BBF00555226 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				3D4AE03E1D9C37FD00555226 /* NSString+Encoding.h */,
-				3D4AE03F1D9C37FD00555226 /* NSString+Encoding.m */,
-				3D4AE0481D9C4C1500555226 /* NSString+Random.h */,
-				3D4AE0491D9C4C1500555226 /* NSString+Random.m */,
+				3D73916C1DA13B38003A7FC1 /* NSString+Encoding.m */,
+				3D73916D1DA13B38003A7FC1 /* NSString+Random.m */,
+				3D73916E1DA13B38003A7FC1 /* NSString+Random.h */,
+				3D73916F1DA13B38003A7FC1 /* NSString+Encoding.h */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -198,8 +198,8 @@
 		3D4AE0471D9C4BDF00555226 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				3D26BC321D998F3A0066B76E /* ViewController.h */,
-				3D26BC331D998F3A0066B76E /* ViewController.m */,
+				3D7391721DA13B41003A7FC1 /* ViewController.m */,
+				3D7391731DA13B41003A7FC1 /* ViewController.h */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -335,14 +335,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D4AE04A1D9C4C1500555226 /* NSString+Random.m in Sources */,
-				3D26BC341D998F3A0066B76E /* ViewController.m in Sources */,
+				3D7391741DA13B41003A7FC1 /* ViewController.m in Sources */,
+				3D7391701DA13B38003A7FC1 /* NSString+Encoding.m in Sources */,
+				3D73916B1DA13B2E003A7FC1 /* Tweet.m in Sources */,
+				3D7391711DA13B38003A7FC1 /* NSString+Random.m in Sources */,
 				3D26BC311D998F3A0066B76E /* AppDelegate.m in Sources */,
-				3D7391621DA11619003A7FC1 /* TwitterRequestFactory.m in Sources */,
+				3D7391691DA13B2E003A7FC1 /* TwitterSpy.m in Sources */,
 				3D26BC3A1D998F3A0066B76E /* TwitterSpy.xcdatamodeld in Sources */,
-				3D4AE0431D9C3E8900555226 /* Tweet.m in Sources */,
-				3D4AE03D1D9C365500555226 /* TwitterSpy.m in Sources */,
-				3D4AE0401D9C37FD00555226 /* NSString+Encoding.m in Sources */,
+				3D73916A1DA13B2E003A7FC1 /* TwitterRequestFactory.m in Sources */,
 				3D26BC2E1D998F3A0066B76E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
